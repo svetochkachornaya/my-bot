@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Bot on Claude
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/my-bot
+ExecStart=/root/my-bot/venv/bin/python /root/my-bot/bot.py
+Restart=always
+RestartSec=5
+EnvironmentFile=-/root/my-bot/.env
+
+[Install]
+WantedBy=multi-user.target
