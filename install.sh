@@ -3,7 +3,7 @@
 TG_TOKEN="8728201511:AAHUqmvx7jbobNUiGzCnAONInCd2efLteJY"
 ANTHROPIC_KEY="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"
 GH_USER="svetochkachornaya"
-GH_TOKEN="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"
+GH_TOKEN="REPLACE_WITH_YOUR_GH_TOKEN"
 REPO_NAME="my-bot"
 # === ДАЛІ НЕ ЗМІНЮЙ ===
 
