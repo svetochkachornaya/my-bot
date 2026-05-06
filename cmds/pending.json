@@ -1,1 +1,1 @@
-{"id": "init", "cmd": "echo ready"}
+{"id": "status-01", "cmd": "echo '=== Python & Git ===' && python3 --version && git --version && echo '=== Services ===' && systemctl is-active mybot.service && systemctl is-active cmdrunner.service && systemctl is-active autodeploy.timer && echo '=== .env check ===' && cat /root/my-bot/.env | sed 's/=.*/=***/' && echo '=== Bot log ===' && journalctl -u mybot.service -n 10 --no-pager"}
